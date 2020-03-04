@@ -1,0 +1,61 @@
+body {
+    background:url(/images/background.jpg);//图片路径
+    background-repeat: no-repeat;//是否重复平铺
+    background-attachment:fixed;//是否随着网页上下滚动而滚动，fixed为固定
+    background-position:50% 50%;//图片位置
+    background-size: cover;//图片展示大小
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+
+
+}
+
+/* bug of siderbar inner style opacity pority is top 内置样式透明度设置更高 
+.header-inner {
+    background: #ffffffe8;//设置侧边栏透明
+    opacity: 0.8; //这里设置为1，否则搜索栏会消失
+}
+.sidebar-inner {
+   // background: #ffffffe8;//设置侧边栏透明
+    background: rgba(255,0,0,0.3);
+   // opacity: 0.6;//这里设置为1，否则搜索栏会消失
+}
+*/
+
+.content-wrap {
+        background: #fff;
+        opacity: 0.86;//设置文章主体透明度
+}
+
+
+// 自定义鼠标样式;图片链接的文件必须是ico文件
+/*  * {
+      cursor: url("图片链接"),auto!important
+  }
+  :active {
+      cursor: url("图片链接"),auto!important
+  }
+ */
+
+
+ //单行代码块颜色
+code {
+    color: #e74856;
+    background: #faf0f0;
+    margin: 1px;
+    font-weight:700;
+}
+
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 2px 0;
+    padding: 1px;
+    border-radius:1px;
+}
+.highlight, code, pre {
+    border: 1px solid #d6d6d6;
+}
