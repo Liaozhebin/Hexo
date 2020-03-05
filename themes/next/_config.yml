@@ -184,9 +184,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/yourname || github
-  E-Mail: mailto:yourname@gmail.com || envelope
-  Weibo: https://weibo.com/yourname || weibo
+  GitHub: https://github.com/liaozhebin || github
+  E-Mail: mailto:liaozhebin@gmail.com || envelope
+  Weibo: https://weibo.com/2617028971 || weibo
   #Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/yourname || twitter
   Facebook: https://www.facebook.com/yourname || facebook
@@ -209,6 +209,9 @@ links_settings:
 
 links:
   Title: https://liaozhebin.top
+  淘宝优惠: http://yh.liaozhebin.top
+  
+
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -264,7 +267,7 @@ symbols_count_time:
   wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true
 
 # Reward (Donate)
 # Front-matter variable (unsupport animation).
@@ -275,16 +278,16 @@ reward_settings:
   comment: 在线乞讨😋，Donate comment here.
 
 reward:
-  wechatpay: /images/wechatpay.png
-  alipay: /images/alipay.png
-  paypal: /images/paypal.png
-  bitcoin: /images/bitcoin.png
+  wechatpay: https://www.kuaizhan.com/common/encode-png?large=true&data=wxp://f2f08m7C2fbXDFEvgSXwdlE7Dd_iCJoq171U #/images/wechatpay.png
+  alipay: https://www.kuaizhan.com/common/encode-png?large=true&data=HTTPS://QR.ALIPAY.COM/FKX0053359DAGKKNTKW99D #/images/alipay.png
+  #paypal: /images/paypal.png
+  #bitcoin: /images/bitcoin.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  Twitter: https://twitter.com/username || twitter
-  Telegram: https://t.me/channel_name || telegram
+  Twitter: https://twitter.com/liaozhebin || twitter
+  Telegram: https://t.me/GroupZhrbin || telegram
   WeChat: /images/wechat_channel.jpg || wechat
   RSS: /atom.xml || rss
 
@@ -305,7 +308,7 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: true
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
+  url: https://github.com/liaozhebin/repo-name/tree/branch-name/subdirectory-name # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
@@ -585,7 +588,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: livere
+  active: valine # livere
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -629,19 +632,19 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
-  notify: false # Mail notifier
-  verify: false # Verification code
+  enable: true
+  appid: Mob7jfKItdoakJ4ONUA3w5st-MdYXbMMI # Your leancloud application appid
+  appkey: to7wiC6yzSBEvTtwbaXMG3WM # Your leancloud application appkey
+  notify: true # Mail notifier
+  verify: true # Verification code
   placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
+  avatar: wavatar # Gravatar style
   guest_info: nick,mail,link # Custom comment header
-  pageSize: 10 # Pagination size
-  language:   zh-Hans # Language, available values: en, zh-cn
-  visitor: false # Article reading statistic
+  pageSize: 15 # Pagination size
+  language:   zh-cn # Language, available values: en, zh-cn
+  visitor: true # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
-  recordIP: false # Whether to record the commenter IP
+  recordIP: true # Whether to record the commenter IP
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   #post_meta_order: 0
 
