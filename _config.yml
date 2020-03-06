@@ -5,10 +5,10 @@
 # Site
 title: Bingo | zhrbin
 subtitle: '随笔行舟,记录分享'
-description: '记录&分享知识|回馈互联网'
+description: '记录生活&分享知识'
 keywords: Linux,建站,V2Ray
 author: Liaozhebin
-language: zh-CN
+language: zh-Customize #zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -107,25 +107,19 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 #deploy:
  # type: ''
+# deploy:
+#   type: git
+#   repo: https://github.com/Liaozhebin/Hexo #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+#   branch: [branch]
+#   message: [message]
 deploy:
   type: git
-  repo: https://github.com/Liaozhebin/Hexo #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [branch]
-  message: [message]
+  repo: https://e.coding.net/liaozhebin/liaozhebin.coding.me.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: 
+  message: 
 
-# table of Contents 
-# toc:
-#   enable: true
-#   maxdepth: 3
-#   class: toc
-#   slugify: false #false # transliteration
-#   decodeEntities: false
-#   anchor:
-#     position: after
-#     symbol: 'title'
-#     style: header-anchor
 
-# word & read time analyzed
+# word & read time analyzied
 symbols_count_time:
   symbols: true
   time: true
@@ -159,9 +153,68 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
+    - markdown-it-checkbox # 本行启用了 checkbox 插件
+    - markdown-it-emoji # 如果你想在 md 中使用 emoji 表情的话，需要另外下载相关插件
   anchors:
     level: 2
     collisionSuffix: 'v'
     permalink: false
     permalinkClass: header-anchor
     permalinkSymbol: ^
+
+# 通用站点地图
+sitemap:
+  path: sitemap.xml
+# 百度站点地图
+baidusitemap:
+  path: baidusitemap.xml
+
+#RSS订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+#nofollow: 减去出站follow参数链接
+#depency：https://github.com/hexojs/hexo-filter-nofollow
+nofollow:
+  enable: false
+  field: site
+  exclude:
+    - 'exclude1.com'
+    - 'exclude2.com'
+
+#back2top bottom，回到顶部按钮
+moon_menu:
+  back2top:
+    enable: true
+    icon: fa fa-chevron-up
+    func: back2top
+    order: -1
+  back2bottom:
+    enable: true
+    icon: fa fa-chevron-down
+    func: back2bottom
+    order: -2
+
+#豆瓣电影&图书
+douban:
+  user: 152817575
+  builtin: false
+  book:
+    title: '我的图书 / My Books'
+    quote: 'This is my book quote'
+  movie:
+    title: '我的电影 / My Moives'
+    quote: 'This is my movie quote'
+  # game:
+  #   title: 'This is my game title'
+  #   quote: 'This is my game quote'
+  timeout: 10000
