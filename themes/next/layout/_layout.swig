@@ -59,13 +59,17 @@
 </html>
 
 
+
+
+<!-- 以下已经移植到数据文件中：source/_data/body-end.swig -->
+
 <!-- 页面点击心形 -->
-<script type="text/javascript" src="/js/clicklove.js"></script>
+<!-- <script type="text/javascript" src="/js/clicklove.js"></script> -->
 
 <!--崩溃欺骗-->
-<script type="text/javascript" src="/js/crash_cheat.js"></script>
+<!-- <script type="text/javascript" src="/js/crash_cheat.js"></script> -->
 
   <!-- 爆炸效果 -->
-<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<!-- <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
 <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-<script type="text/javascript" src="/js/firework.js"></script>
+<script type="text/javascript" src="/js/firework.js"></script> -->
