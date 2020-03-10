@@ -105,17 +105,18 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
- # type: ''
+
 # deploy:
 #   type: git
-#   repo: https://github.com/Liaozhebin/Hexo #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-#   branch: [branch]
-#   message: [message]
+#   message: 
+
 deploy:
   type: git
-  repo: https://e.coding.net/liaozhebin/liaozhebin.coding.me.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: 
+  repo: 
+    coding: https://e.coding.net/liaozhebin/liaozhebin.coding.me.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+    github: https://github.com/Liaozhebin/liaozhebin.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch:
+    coding: coding-pages
   message: 
 
 

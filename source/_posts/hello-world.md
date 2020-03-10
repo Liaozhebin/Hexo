@@ -3,8 +3,8 @@ title: Hello World
 date: 2010-04-01 
 updated: 2018-05-01 
 top: true
-password: bingo
-abstract: 有东西被加密了，请输入密码查看
+password: bingo1
+abstract: 🔐咦，这儿有东西被加密了，需要输入密码才能查看~
 message: 请输入密码，按[Enter]键确定
 wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
 ---
