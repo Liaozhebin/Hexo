@@ -154,7 +154,7 @@ sidebar:
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  width: 300
+  width: 280
 
   # Sidebar Display (only for Muse | Mist), available values:
   #  - post    expand on posts automatically. Default.
@@ -200,7 +200,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: true
 
 # Blog rolls
@@ -208,11 +208,11 @@ links_settings:
   icon: link
   title: Links
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 links:
-  Title: https://liaozhebin.top
-  淘宝优惠: http://yh.liaozhebin.top
+  Title ||: https://liaozhebin.top
+  淘宝优惠 ||: http://yh.liaozhebin.top
   
 
 
@@ -538,7 +538,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
-pjax: true
+pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
