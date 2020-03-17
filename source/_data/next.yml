@@ -641,7 +641,7 @@ valine:
   appkey: to7wiC6yzSBEvTtwbaXMG3WM # Your leancloud application appkey
   notify: true # Mail notifier
   verify: true # Verification code
-  placeholder: "ヾﾉ≧∀≦)o 来啊，快活啊! &#13;&#10; (。・∀・)ノ 记得留下您的邮箱噢~ &#13;&#10;(●ˇ∀ˇ●) 这样才能收到主人回复的通知提醒呢😋  "     #Comment box placeholder
+  placeholder: ヾﾉ≧∀≦)o 来啊，快活啊! &#13;&#10; (╹ڡ╹ ) 支持 Markdown 语法和预览噢 &#13;&#10; (。・∀・)ノ 要记得留下邮箱哟~ &#13;&#10;(●ˇ∀ˇ●) 这样才能收到主人回复的通知提醒呢😋       #Comment box placeholder
   avatar: wavatar # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 15 # Pagination size
