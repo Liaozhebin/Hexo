@@ -1,5 +1,5 @@
 body {
-    background:url(/images/background.jpg);//图片路径
+    background:url(https://cdn.jsdelivr.net/gh/liaozhebin/img@master/imgs/background0.jpg);//图片路径
     background-repeat: no-repeat;//是否重复平铺
     background-attachment:fixed;//是否随着网页上下滚动而滚动，fixed为固定
     background-position:50% 50%;//图片位置
@@ -11,8 +11,8 @@ body {
     -moz-background-size: cover;
     -ms-background-size: cover;
 
-
 }
+
 
 /* bug of siderbar inner style opacity pority is top 内置样式透明度设置更高 
 .header-inner {
@@ -25,6 +25,12 @@ body {
    // opacity: 0.6;//这里设置为1，否则搜索栏会消失
 }
 */
+
+//修复圆角阴影
+.sidebar {
+box-shadow: none
+background: none
+}
 
 .content-wrap {
         background: #fff;
@@ -40,6 +46,19 @@ body {
       cursor: url("图片链接"),auto!important
   }
  */
+
+
+// 文章内链接文本样式
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 3px solid #fc6423;
+  }
+}
 
 
  //单行代码块颜色
@@ -150,6 +169,7 @@ h2 {
 
 
 //Markdown的checkbox
+
 input[type="checkbox"] {
   display: none !important; // by imo: to overwrite styles in DuoShuo-Comments-Plugin
 }

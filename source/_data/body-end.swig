@@ -38,11 +38,6 @@
 
 
 
-
-{# 代码压缩 #}
-<script type="text/javascript" src="/js/fold_action.js"></script>
-
-
 {# 友链设置 #}
 {% if page.type === 'links' %}
   <script src="/js/link.js"></script>
