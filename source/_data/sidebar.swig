@@ -1,3 +1,4 @@
+
 {# 近期文章 #}
 {% if theme.recent_posts %}
     <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.recent_posts_layout  }}">

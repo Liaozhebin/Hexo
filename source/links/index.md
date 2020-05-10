@@ -27,9 +27,9 @@ updated: 2020-03-06 03:02:07
 
 ## 友链格式
 
-- 网站名称：bingo的个人博客
-- 网站地址：[https://liaozhebin.top](https://liaozhebin.top)
+- 网站名称：Bingo|Zhrbin 的个人博客
+- 网站地址：[https://592592.xyz](https://592592.xyz)
 - 网站描述：世间所有的相遇，都是久别重逢
-- 网站Logo/头像：[https://tding.top/images/avatar.webp](https://tding.top/images/avatar.webp)
+- 网站Logo/头像：[https://cdn.jsdelivr.net/gh/liaozhebin/img@master/imgs/20200508222446.png](https://cdn.jsdelivr.net/gh/liaozhebin/img@master/imgs/20200508222446.png)
 
 {% endnote %}

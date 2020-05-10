@@ -36,3 +36,8 @@ translateInitilization();
 setInterval("createtime()",250);
 </script>
 </div>
+
+<!--Canvas Nest-->
+<!-- 由于无法关闭移动的端不显示该动画，故展示不采用footer中的方案
+<script color="255,51,51" opacity="0.55" zIndex="-1" count="300" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+--!>
